@@ -1,0 +1,10 @@
+body{
+    align-items: center;
+    text-align: center;
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img:hover{
+    background-color: aqua;
+}

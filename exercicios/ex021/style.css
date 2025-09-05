@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+}
+
+nav {
+    width: 200px;
+    height: 100vh;
+    border-right: solid 2px rgb(0, 110, 255);
+}
