@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            text-align: center;
+            background-color: darkgray;
+        }
+
+        form {
+            padding: 10px 20px 10px 20px;
+            margin-top: 20px;
+            margin-left: auto ;
+            margin-right: auto ;
+            background-color: white;
+            box-shadow: 3px 3px 14px rgba(0, 0, 0, 0.61);
+            border-radius: 1em;
+            width: 400px;
+        }
+
+        h1 {
+            color: rgba(0, 0, 0, 0.671);
+            background-color: white;
+            display: block;
+            width: 700px;
+            padding: 20px;
+            margin: auto;
+            border-radius: 1em;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            box-shadow: 3px 3px 14px rgba(0, 0, 0, 0.61);
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.315);
+        }
+
+        p {
+            padding: 15px;
+        }
+
+        label#dois {
+            display: inline-block;
+            margin-left: 27px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Meu Primeiro Formulário No Curso Em Video</h1>
+    <form action="cadastro.php" autocomplete="off" method="post">
+        <p><label for="nome">Nome: </label> <input type="text" name="nome"  id="nome"></p>
+        <p><label for="sobrenome" id="dois">sobrenome: </label><input type="search" name="sobrenome" id="sobrenome"></p>
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
