@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+        <style>
+        body {
+            text-align: center;
+            font-family: sans-serif;
+            background-color: darkcyan;
+
+        }
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
+        }
+
+        form {
+            width: 300px;
+            background-color: white;
+            border-radius: 1em;
+            padding: 20px;
+            margin: auto;
+            box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.301);
+        }
+
+        form p {
+            padding: 10px;
+            
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" maxlength="30" required>
+        </p>
+
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.5">
+        </p>
+
+        <p>
+            <label for="imes">Mes</label>
+            <input type="month" name="mes" id="imes" value="2025-10">
+        </p>
+
+        <p>
+            <label for="idata">Data</label>
+            <input type="date" name="data" id="idate">
+        </p>
+
+        <p>
+            <label for="ihora">Hora</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset"  value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
