@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        fieldset {
+            border: 1px solid blue;
+            border-radius: 1em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <form action="cadastro.php" method="get">
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail">
+            </p>
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" required>
+            </p>
+    </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+</body>
+</html>
